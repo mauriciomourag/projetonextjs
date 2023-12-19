@@ -10,7 +10,7 @@ export const authConfig = {
       const isProtegido = nextUrl.pathname.startsWith('/protegido');
       if (isProtegido) {
         if (isLoggedIn) return true;
-        return false; //redireciona para o login
+        return false; 
       } else if (isLoggedIn) {
         return Response.redirect(new URL('/protegido', nextUrl));
       }
