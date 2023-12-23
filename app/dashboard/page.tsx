@@ -16,7 +16,7 @@ const Dashboard = () => {
           <p>
             O dashboard da Expositor, oferece diversas ferramentas para você criar suas listas da forma que você quiser. Quer fazer um "top 10 filmes de aventura?" Você consegue! Quer fazer um "top 5 jogos que eu mais gosto?" Você consegue!
           </p>
-          <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'><Link href="/login" className='p-4'>Começar</Link></button>
+          {/* <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'><Link href="/login" className='p-4'>Começar</Link></button> */}
         </div>
       </div>
     </div>
