@@ -1,7 +1,7 @@
 import './globals.css'
 import Hero from './hero/page'
-import Analytics from './analytics/page'
-import Newsletter from './newsletter/page'
+import Dashboard from './dashboard/page'
+import SaberMais from './sabermais/page'
 import Cards from './cards/page'
 
 export default function Home() {
@@ -9,8 +9,8 @@ export default function Home() {
     <main>
       <div>
       <Hero />
-        <Analytics />
-        <Newsletter />
+        <Dashboard />
+        <SaberMais />
         <Cards />
       </div>
     </main>
