@@ -4,6 +4,10 @@ import './globals.css'
 import Link from 'next/link'
 import Navbar from './navbar/page'
 import Hero from './hero/page'
+import Analytics from './analytics/page'
+import Newsletter from './newsletter/page'
+import Cards from './cards/page'
+import Footer from './footer/page'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,10 +25,8 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className="m-3">
         <Navbar />
-        <Hero />
-        <hr />
         {children}
-        <hr />
+        <Footer />
         Copyright &copy; 2023 Instituto Infnet
       </body>
     </html>

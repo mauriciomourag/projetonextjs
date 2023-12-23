@@ -1,12 +1,17 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import './globals.css'
+import Hero from './hero/page'
+import Analytics from './analytics/page'
+import Newsletter from './newsletter/page'
+import Cards from './cards/page'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full justify-between font-mono text-sm">
-        <h1>Estudos de Jamstack com Next.js</h1>
-        <Link href="/protegido">Área Protegida</Link>
+    <main>
+      <div>
+      <Hero />
+        <Analytics />
+        <Newsletter />
+        <Cards />
       </div>
     </main>
   )
