@@ -18,13 +18,13 @@ const SaberMais = () => {
               type='email'
               placeholder='Seu Email'
             />
-            <button className='bg-[#00df9a] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3'>
+            <button className='bg-[#6fc1dd] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3'>
               Enviar
             </button>
           </div>
           <p>
             Não compartilharemos os seus dados!{' '}
-            <span className='text-[#00df9a]'>Política de privacidade.</span>
+            <span className='text-[#6fc1dd]'>Política de privacidade.</span>
           </p>
         </div>
       </div>

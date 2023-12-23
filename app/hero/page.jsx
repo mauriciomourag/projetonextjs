@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className='text-white'>
       <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-        <p className='text-[#00df9a] font-bold p-2'>
+        <p className='text-[#6fc1dd] font-bold p-2'>
           Crie listas sobre qualquer tema
         </p>
         <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>
@@ -17,7 +17,7 @@ const Hero = () => {
           </p>          
         </div>
         <p className='md:text-2xl text-xl font-bold text-gray-500'>Filmes, músicas, jogos, e tudo o que você gosta.</p>
-        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'><Link href="/login" className='p-4'>Começar</Link></button>
+        <button className='bg-[#6fc1dd] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'><Link href="/login" className='p-4'>Começar</Link></button>
       </div>
     </div>
   );
