@@ -45,19 +45,19 @@ const Footer = () => {
     <div>
         <h6 className='font-medium text-gray-400'>Empresa</h6>
         <ul>
-            <li className='py-2 text-sm'>Sobre</li>
-            <li className='py-2 text-sm'>Blog</li>
-            <li className='py-2 text-sm'>Emprego</li>
-            <li className='py-2 text-sm'>Notícias</li>
-            <li className='py-2 text-sm'>Outros</li>
+            <li className='py-2 text-sm'>Empresa 1</li>
+            <li className='py-2 text-sm'>Empresa 2</li>
+            <li className='py-2 text-sm'>Empresa 3</li>
+            <li className='py-2 text-sm'>Empresa 4</li>
+            <li className='py-2 text-sm'>Empresa 5</li>
         </ul>
     </div>
     <div>
         <h6 className='font-medium text-gray-400'>Legal</h6>
         <ul>
-            <li className='py-2 text-sm'>Privacidade</li>
-            <li className='py-2 text-sm'>Termos</li>
-            <li className='py-2 text-sm'>Compromisso</li>
+            <li className='py-2 text-sm'>Legal 1</li>
+            <li className='py-2 text-sm'>Legal 2</li>
+            <li className='py-2 text-sm'>Legal 3</li>
         </ul>
     </div>
       </div>

@@ -43,10 +43,10 @@ export default function LoginForm() {
               </div>
               <span className="font-bold text-md">Esqueceu a Senha?</span>
             </div>
-            <button className="w-full bg-[#6fc1dd] text-white p-2 rounded-lg mb-6 hover:bg-white hover:text-black hover:border hover:border-gray-300">
+            <button className="w-full bg-[#6fc1dd] text-white p-2 rounded-lg mb-6 hover:bg-[#4b8a9f] hover:text-white hover:border hover:border-gray-300">
               Entrar
             </button>
-            <button className="w-full border border-gray-300 text-md p-2 rounded-lg mb-6 hover:bg-black hover:text-white">
+            <button className="w-full border border-gray-300 text-md p-2 rounded-lg mb-6 hover:bg-[#4b8a9f] hover:text-white">
               <Image src={Google} alt="" className="w-6 h-6 inline mr-2" />
               Entrar com o Google
             </button>

@@ -21,7 +21,7 @@ export async function getUsuarioPorEmail(email: string): Promise<Usuario | undef
         const usuario = await sql<Usuario>`SELECT * FROM usuarios WHERE email=${email}`;
         return usuario.rows[0];
     } catch (erro) {
-        console.error('Erro na consulta de usuario:', erro);
-        throw new Error('Erro na consulta de usuario.');
+        console.error('Erro na consulta:', erro);
+        throw new Error('Erro na consulta.');
     }
 }

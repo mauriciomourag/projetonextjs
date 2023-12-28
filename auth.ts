@@ -1,7 +1,7 @@
 import NextAuth from 'next-auth';
 import Credentials from 'next-auth/providers/credentials';
-import bcrypt from 'bcrypt';
 import { z } from 'zod';
+import bcrypt from 'bcrypt';
 import {getUsuarioPorEmail} from './app/lib/infra/usuarios';
 import { authConfig } from './auth.config';
 
@@ -23,7 +23,6 @@ export const { auth, signIn, signOut } = NextAuth({
                     const senhaOk = await bcrypt.compare(senha, usuario.senha);
                     if (senhaOk) return usuario;
                 }
-
                 console.log('Login inválido');
                 return null;
             },
