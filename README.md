@@ -1,28 +1,26 @@
 <h1>🚀 Projeto nextjs-web-starter</h1>
 
 <p>
-Este projeto é uma aplicação web desenvolvida com <strong>Next.js</strong> com o objetivo de estudar e praticar
-a construção de interfaces modernas utilizando <strong>React</strong>.
-</p>
-
-<p>
-O projeto demonstra a estrutura básica de um aplicativo Next.js, incluindo organização de páginas,
-componentes reutilizáveis e execução de uma aplicação web baseada em React.
+Este repositório contém uma aplicação web desenvolvida utilizando
+<strong>Next.js</strong> e <strong>React</strong>.
+O objetivo do projeto é explorar a estrutura e funcionamento básico
+de aplicações modernas baseadas em React utilizando o framework Next.js.
 </p>
 
 <hr>
 
-<h2>📌 Objetivo</h2>
-
-<ul>
-<li>Praticar desenvolvimento com <strong>Next.js</strong></li>
-<li>Aprender a estruturar aplicações modernas com <strong>React</strong></li>
-<li>Explorar a organização de páginas e componentes</li>
-<li>Criar uma base reutilizável para futuros projetos</li>
-</ul>
+<h2>📌 Sobre o Projeto</h2>
 
 <p>
-Este repositório funciona como um <strong>projeto de estudo e experimentação</strong> com o framework Next.js.
+O projeto foi criado para estudo e prática do framework Next.js,
+incluindo organização de páginas, estilização e execução de uma aplicação
+web com React.
+</p>
+
+<p>
+Next.js facilita a construção de aplicações React fornecendo estrutura
+de rotas, organização de arquivos e ferramentas de desenvolvimento
+integradas.
 </p>
 
 <hr>
@@ -45,23 +43,28 @@ Este repositório funciona como um <strong>projeto de estudo e experimentação<
 projetonextjs
 │
 ├── pages
-│   └── index.js
+│   ├── index.js
+│   └── _app.js
 │
 ├── public
+│   ├── favicon.ico
+│   └── images
 │
 ├── styles
-│   └── globals.css
+│   ├── globals.css
+│   └── Home.module.css
 │
 ├── package.json
+├── next.config.js
 └── README.md
 </pre>
 
-<h3>Principais diretórios</h3>
+<h3>Principais Diretórios</h3>
 
 <ul>
 <li><strong>pages/</strong> → contém as páginas da aplicação (rotas automáticas do Next.js)</li>
-<li><strong>public/</strong> → arquivos estáticos como imagens e ícones</li>
-<li><strong>styles/</strong> → arquivos de estilização da aplicação</li>
+<li><strong>public/</strong> → arquivos públicos como imagens e ícones</li>
+<li><strong>styles/</strong> → arquivos de estilo da aplicação</li>
 </ul>
 
 <hr>
@@ -86,12 +89,6 @@ cd projetonextjs
 npm install
 </pre>
 
-<p>ou</p>
-
-<pre>
-yarn install
-</pre>
-
 <h3>4️⃣ Execute o projeto</h3>
 
 <pre>
@@ -109,9 +106,9 @@ http://localhost:3000
 <h2>📚 Aprendizados</h2>
 
 <ul>
-<li>Estruturação de aplicações com Next.js</li>
-<li>Componentização em React</li>
-<li>Organização de páginas e rotas</li>
+<li>Estrutura básica de projetos Next.js</li>
+<li>Criação de páginas com React</li>
+<li>Organização de estilos</li>
 <li>Execução de aplicações Node.js no ambiente de desenvolvimento</li>
 </ul>
 
@@ -119,7 +116,7 @@ http://localhost:3000
 
 <h2>📌 Status do Projeto</h2>
 
-<p>✔ Projeto em desenvolvimento / estudo.</p>
+<p>✔ Projeto de estudo / prática com Next.js.</p>
 
 <hr>
 
@@ -130,8 +127,7 @@ Desenvolvido por <strong>Maurício Moura</strong>
 </p>
 
 <p>
-GitHub:<br>
 <a href="https://github.com/mauriciomourag">
-https://github.com/mauriciomourag
+GitHub
 </a>
 </p>
